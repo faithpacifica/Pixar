@@ -1,0 +1,392 @@
+@import url('../css/style.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* HEADER  */
+
+header {
+    width:100%;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+header .container {
+    width: 1100px;
+}
+
+.headerRow {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 315px;
+}
+
+.navbar .bar {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 16px;
+    color: #000000;
+}
+
+.navbar :hover{
+    border-bottom:2px solid;
+}
+
+.navbar :active{
+    background: rgba(25, 25, 25, 0.7);
+    color: #FFFFFF;
+
+}
+.supportNumber {
+    color: #FFFFFF;
+    font-weight: bold;
+    background: #00BAFC;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.supportNumber:hover{
+   border: #00BAFC 1px solid;
+    background-color: white;
+    color:#00BAFC;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.supportNumber:active{
+    background: rgba(0, 186, 252, 0.6);
+    border-radius: 5px;
+    padding: 8px 16px;
+    color: #FFFFFF;
+}
+
+/*  KEYINGI BOSQICH(1)  */
+
+.sectionOne .container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.sectionOneRow {
+    justify-content: space-between;
+    align-items: center;
+    padding: 110px 0 80px 0;
+}
+
+.business {
+    width: 470px;
+}
+
+.nextLevel {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+.promo-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.promoLink {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #00BAFC;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.promoVideo {
+    width: 458px;
+    height: 258px;
+}
+
+/* XIZMATLAR(2)  */
+.sectionTwo .container {
+    max-width: 1100px;
+    padding: 56px 0 64px 0;
+}
+
+.section-tytle {
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+}
+
+.serviceText {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 719px;
+    margin:0 auto 24px auto
+}
+
+.sectionTwoRow-1 {
+    margin: 0;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.sectionTwoRow-2 {
+    width: 710px;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.column2 {
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 24px 60px;
+    color:#000;
+}
+
+.column2:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.column2:active{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.serviceName,.loremipsum {
+    margin: 0;
+}
+
+.serviceName {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.loremipsum {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.orders {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.takeOrders {
+    margin-right: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #00BAFC;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.goToService {
+    text-decoration-line: underline;
+    color: #00BAFC;
+
+}
+
+/* QANDAY ISHLAYMIZ(3) --> */
+.sectionThree{
+    padding-top:56px;
+    padding-bottom:56px;
+}
+
+.sectionThree .container {
+    max-width: 830px;
+}
+
+.sectionThreeRow{
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin:0;
+    margin-bottom:50px;
+}
+
+.column3 img{
+    width:300px;
+    padding-right:36px;
+}
+
+.subtytle{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 8px 0px;
+}
+
+.subtytleText{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 8px 0px;
+}
+.step-info{
+    max-width:493px;
+}
+
+/* BUYURTMA BERISH(4) */
+
+.sectionFour{
+    background: #00BAFC;
+    text-align: center;
+    padding-top:56px;
+    padding-bottom:64px;
+}
+
+.sectionFour h2, .sectionFour p{
+    color: #FFFFFF;
+}
+
+.submitForm{
+    width: 348px;
+    margin:0 auto;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding:24px;
+}
+
+.sectionFour input, .sectionFour select{
+    font-size: 16px;
+    line-height:24px;
+    width:300px;
+    background: #F3F3F3;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    padding:16px 0 16px 16px;
+    margin-bottom:16px;
+    color: #000000;
+}
+
+.orderButton{
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #00BAFC;
+    border-radius: 5px;
+    padding: 8px 16px;
+    border:none;
+    font-size: 16px;
+    line-height:24px;
+}
+
+
+/* FOOTER */
+footer{
+    padding-top:56px;
+    padding-bottom:56px;
+    background: #191919;
+    color:white;
+}
+
+footer .container{
+    max-width: 1100px;
+}
+footer .footerow{
+    margin:0 auto;
+}
+
+footer h3{
+    margin:0 0 16px 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+}
+footer li a:hover{
+    color: #00BAFC;
+}
+
+footer li a:active{
+    color: #00BAFC;
+}
+
+.socialMedia a:hover{
+    color: #00BAFC;
+}
+
+.socialMedia a:active{
+    color: #00BAFC;
+}
+
+footer a, footer i{
+    color:white;
+}
+
+footer i{
+    margin-right:8px;
+}
+
+.copyright p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer li{
+    list-style:none;  
+    padding-bottom:8px;
+}
+
+footer ul{
+    padding-left:0;
+}
+
+.footerrow{
+    justify-content:left;
+    align-items: top;
+}
+
+.copyright{
+    width:320px;
+    margin-right: 100px;
+}
+
+.sitepages{
+    width:143px;
+    margin-right: 87px;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMedia a{
+    display: inline-block;
+    padding-bottom:8px;
+}
